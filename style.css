@@ -1,0 +1,110 @@
+body {
+    background:beige;
+    font: 24px Helvetica;
+}
+
+#main{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row;
+    min-height: 800px;
+}
+#main article{
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background: rgb(248, 201, 230);
+    order: 2;
+    flex: 3 1 60%;
+}
+
+.azorin{
+    font-family: arial;
+    font-size: 11px;
+    border: 2px solid black;
+    border-top: 22px solid rgb(221, 49, 255);
+    padding: 2px;
+
+}
+
+img{
+    border: 2px solid silver ;
+    width: 300px;
+    height: 300px;
+    float: left;
+
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    background-color: rgb(202, 221, 248);
+    text-decoration: none;
+    color: rgb(25, 26, 25);
+}
+h1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background:  rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 23px;
+    width: 270px;
+    margin-left: 34%;
+
+}
+#main nav{
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid rgb(9, 4, 14);
+    border-radius: 7px;
+    background: rgb(248, 246, 246);
+    flex: 1 6 20%;
+    order: 1;
+}
+
+ #main .cuadro p{
+    width: 300px;
+    height: 300px;
+    font-size: 15px;
+    padding: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    text-align: center;
+}
+
+h2{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(183, 128, 255);
+    min-height: 30px;
+    height: 40px;
+}
+#main aside{
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid rgb(15, 15, 17);
+    border-radius: 7px;
+    background: rgb(202, 221, 248);
+    flex: 1 6 20%;
+    order: 3;
+}
+header, footer{
+    display: block;
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid rgb(10, 8, 8);
+    border-radius: 7px;
+    background-color: rgb(247, 174, 230);
+
+}
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: flex;
+}
